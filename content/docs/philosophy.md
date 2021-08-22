@@ -1,1 +1,0 @@
-* [Taylor Richard's The Meaning of Life](/philosophy/meaning-of-life)
