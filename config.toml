@@ -1,0 +1,6 @@
+baseURL = 'https://potatodiet.ca'
+languageCode = 'en-us'
+title = 'PotatoDiet'
+
+[params]
+BookSearch = false
