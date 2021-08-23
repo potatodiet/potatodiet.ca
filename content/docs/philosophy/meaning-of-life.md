@@ -3,8 +3,6 @@ title: Richard Taylor's The Meaning of Life
 type: docs
 ---
 
-# Richard Taylor's The Meaning of Life
-
 ## Preamble
 The following is an essay I wrote for PHL113 at UofT during the summer of 2020.
 

@@ -3,8 +3,6 @@ title: About
 type: docs
 ---
 
-# About
-
 ## Overview
 I'm an amateur, hoping to one day be a professional, software developer.
 
