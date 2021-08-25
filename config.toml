@@ -2,6 +2,7 @@ baseURL = 'https://potatodiet.ca'
 languageCode = 'en-us'
 title = 'PotatoDiet'
 assetDir = 'assets'
+theme = 'book'
 
 [params]
 BookSearch = false
