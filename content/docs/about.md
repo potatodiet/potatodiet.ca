@@ -12,6 +12,10 @@ I never graduated, or even really attended, high school, but somehow ended up in
 * [Github](https://github.com/potato-diet)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:PotatoDiet)
 
+## This Site
+### Technical
+This website is really just a collection of Markdown text files, which gets converted into HTML using [Hugo](https://gohugo.io/) ([a](/files/archive/hugo_2021-09-18.html)), and partially prettified using the [Hugo Book Theme](https://github.com/alex-shpak/hugo-book) ([a](/files/archive/book-theme_2021-09-18.html)). It's compiled and hosted using [Cloudflare Pages](https://pages.cloudflare.com/) ([a](/files/archive/cloudflare-pages_2021-09-18.html)) just since it requires minimimal work while being free. Larger blobs of data are stored using [Backblaze B2](https://www.backblaze.com/b2/cloud-storage.html) ([a](/files/archive/b2_2021-09-18.html)), again, only because it's simple and cheap when combined with Cloudflare due to the [Bandwidth Alliance](https://www.cloudflare.com/en-ca/bandwidth-alliance/) ([a](/files/archive/bandwidth-alliance_2021-09-18.html)).
+
 ## What I Use
 ### Desktop
 Since sometime around 2014 I've been using Linux as my main operating system. I started off with Ubuntu, and eventually after trialing all the popular distributions, landed on ArchLinux, mostly due to the amazing Arch User Repository. My setup has been pretty stable for the past few years. I use Sway as my window manager, i3 is probably still for the most part better to use since I still run into issues with Steam games on Sway, but it's acceptable. Otherwise, I have to say that tiling window managers are the absolute best for productivity. I truly can not imagine how computer-dependent workers manage with the normal GUI workflow.
