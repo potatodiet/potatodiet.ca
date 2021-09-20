@@ -1,3 +1,5 @@
 {{ $style := resources.Get "main.scss" | resources.ExecuteAsTemplate "main.scss" . | resources.ToCSS | resources.Minify
 }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'">
