@@ -1,6 +1,5 @@
 ---
 title: Richard Taylor's The Meaning of Life
-type: docs
 ---
 
 ## Preamble
