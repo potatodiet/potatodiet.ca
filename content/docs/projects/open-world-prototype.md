@@ -9,4 +9,4 @@ Around 2015, before starting College when I was completing my GED, me and a frie
 * [Windows](/files/open-world/windows.zip)
 * [Mac](/files/open-world/mac.zip)
 * [Linux](/files/open-world/linux.zip)
-* [Online](/files/open-world/webgl/)
+* [Online](/files/open-world/webgl/index.html)
