@@ -8,8 +8,20 @@ I'm an amateur, hoping to one day be a professional, software developer.
 I never graduated, or even really attended, high school, but somehow ended up in my current status as a struggling Computer Science student at the University of Toronto after a brief one year stint as a Computer Engineering student at Algonquin College.
 
 ## Profiles
-* [Github](https://github.com/potato-diet)
+### Encyclopedias
+* [ArchWiki](https://wiki.archlinux.org/title/User:PotatoDiet)
+* [Old School RuneScape Wiki](https://oldschool.runescape.wiki/w/User:PotatoDiet)
 * [Wikipedia](https://en.wikipedia.org/wiki/User:PotatoDiet)
+
+### Programming
+* [Arch User Repository](https://aur.archlinux.org/account/potatodiet)
+* [Github](https://github.com/potato-diet)
+* [RubyGems](https://rubygems.org/profiles/potatodiet)
+* [Rust Package Registry](https://crates.io/users/potato-diet)
+
+### Social Media
+* [Hacker News](https://news.ycombinator.com/user?id=potatodiet)
+* [Reddit](https://www.reddit.com/user/potato-diet)
 
 ## This Site
 ### Technical
