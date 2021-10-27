@@ -3,6 +3,19 @@ title: Self Hosting
 ---
 
 ## My Setup
+### Hardware
+| Device | Description |
+| ------ | ----------- |
+| CPU | AMD FX-6300 |
+| SSD | Samsung 850 EVO 250GB |
+| HDD | 4x Seagate Barracuda 8TB |
+| HDD | Seagate Barracuda 1TB |
+| HDD | Western Digital SE 4TB |
+| RAM | 3x Kingston DDR3 2GB |
+| RAM | Samsung DDR3 4GB |
+| GPU | GeForce GTX 760 |
+
+### Services
 | Service | Description |
 | ------- | ----------- |
 | [Jellyfin](https://jellyfin.potatodiet.ca) | For watching movies and tv-shows through the browser and on native smart-tv apps. |
