@@ -18,6 +18,7 @@ I never graduated, or even really attended, high school, but somehow ended up in
 * [Github](https://github.com/potato-diet)
 * [RubyGems](https://rubygems.org/profiles/potatodiet)
 * [Rust Package Registry](https://crates.io/users/potato-diet)
+* [Docker Hub](https://hub.docker.com/u/potatodiet)
 
 ### Social Media
 * [Hacker News](https://news.ycombinator.com/user?id=potatodiet)
