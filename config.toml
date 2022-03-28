@@ -8,5 +8,5 @@ enableGitInfo = true
 
 [params]
 BookSection = '/'
-BookRepo = 'https://github.com/potato-diet/potatodiet.ca'
+BookRepo = 'https://code.potatodiet.ca/potatodiet/potatodiet.ca'
 BookDateFormat = '2 January 2006'
