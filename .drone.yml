@@ -1,0 +1,26 @@
+kind: pipeline
+name: default
+
+platform:
+  os: linux
+  arch: arm64
+
+steps:
+- name: submodules
+  image: alpine/git
+  commands:
+  - git submodule update --init --recursive
+
+- name: build
+  image: potatodiet/hugo-ext
+
+- name: publish
+  image: appleboy/drone-scp
+  settings:
+    host: "129.153.138.255"
+    username: ubuntu
+    key:
+      from_secret: ssh_key
+    target: /var/www/potatodiet.ca
+    source: public/
+    rm: true
