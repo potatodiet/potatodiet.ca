@@ -1,0 +1,40 @@
+baseURL: https://potatodiet.ca
+languageCode: en-us
+title: PotatoDiet
+assetDir: assets
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    title: Hello
+    content: |
+      Welcome to my website.
+      
+      I'm a software developer by trade. I mostly like Python, Ruby, TypeScript, and Rust, but I've been warming up to Go.
+      I'd call myself more of a generalist than a specialist.
+
+  socialIcons:
+    - name: github
+      url: https://github.com/potato-diet
+    - name: linkedin
+      url: https://www.linkedin.com/in/potatodiet/
+    - name: email
+      url: mailto:me@potatodiet.ca
+    - name: rss
+      url: /posts/index.xml
+
+  assets:
+    favicon: /favicon.png
+
+  env: production
+
+menu:
+  main:
+    - name: About
+      url: /about/
+    - name: Archive
+      url: /archive/
+    - name: Interesting
+      url: /interesting/
+    - name: Projects
+      url: /projects/
