@@ -16,6 +16,8 @@ params:
   socialIcons:
     - name: github
       url: https://github.com/potato-diet
+    - name: gitea
+      url: https://code.potatodiet.ca/potatodiet
     - name: linkedin
       url: https://www.linkedin.com/in/potatodiet/
     - name: email
