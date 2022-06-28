@@ -29,6 +29,7 @@ params:
     favicon: /favicon.png
 
   env: production
+  ShowPostNavLinks: true
 
 menu:
   main:
