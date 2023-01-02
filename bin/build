@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+shopt -s nullglob
+
+rm -r public/*
+cp -r theme/{*.woff2,style.css,favicon.png} static/* public
+
+for filename in content/*.md; do
+  name=$(basename "$filename" .md)
+
+  if [[ "$name" == "index" ]]; then
+    pandoc --template theme/template.html "$filename" -o "public/index.html"
+  else
+    mkdir "public/$name"
+    pandoc --template theme/template.html "$filename" -o "public/$name/index.html"
+  fi
+done

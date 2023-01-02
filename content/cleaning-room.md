@@ -1,10 +1,5 @@
 ---
 title: Keeping a Clean Room
-date: 2022-05-04
-tags:
-  - Life
-summary:
-  The generic advice on keeping your room clean is surprisingly helpful.
 ---
 
 It's essentially a meme at this point, but the standard advice given to those in

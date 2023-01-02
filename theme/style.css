@@ -1,0 +1,53 @@
+@font-face {
+  font-family: roboto;
+  src: url(roboto-regular.woff2);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(roboto-bold.woff2);
+  font-weight: bold;
+}
+
+body {
+  font-family: roboto;
+  background-color: rgb(245, 245, 245);
+}
+
+a {
+  color: inherit;
+}
+
+header a {
+  width: 1024px;
+  text-decoration: none;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content {
+  width: 900px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.content table {
+  text-indent: 0;
+}
+
+.content th {
+  text-align: start;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 24px;
+}

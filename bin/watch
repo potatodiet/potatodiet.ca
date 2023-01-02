@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+python3 -m http.server --directory public &
+watchexec -w content -w theme bin/build
+
+trap "kill -- -$$" EXIT
