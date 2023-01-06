@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
+set -e
 shopt -s nullglob
 
+mkdir public/test
 rm -r public/*
 cp -r theme/{*.woff2,style.css,favicon.png} static/* public
 

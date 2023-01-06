@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -e
+
+bin/build
+
+export RCLONE_CONFIG_R2_TYPE=s3
+export RCLONE_CONFIG_R2_PROVIDER=Cloudflare
+export RCLONE_CONFIG_R2_ACCESS_KEY_ID="$R2_ACCESS_KEY"
+export RCLONE_CONFIG_R2_SECRET_ACCESS_KEY="$R2_SECRET_ACCESS_KEY"
+export RCLONE_CONFIG_R2_ENDPOINT="https://$R2_ACCOUNT_ID.r2.cloudflarestorage.com"
+export RCLONE_CONFIG_R2_ACL=private
+rclone copy --checksum public r2:/potatodiet
+
+curl -X POST "https://api.cloudflare.com/client/v4/zones/284073823d0e43e3ecdf433d114c7836/purge_cache" \
+     -H "authorization: Bearer $R2_AUTH_TOKEN" \
+     -H "Content-Type: application/json" \
+     --data '{"purge_everything":true}'
