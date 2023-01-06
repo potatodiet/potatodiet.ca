@@ -3,3 +3,4 @@
 - Pandoc
 - Watchexec
 - Python
+- Rclone
