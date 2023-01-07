@@ -4,18 +4,21 @@
   font-weight: 100 900;
 }
 
+@media screen and (min-width: 800px) {
+  .content {
+    width: 800px;
+    margin: auto;
+  }
+}
+
 body {
   font-family: "Source Serif 4";
   background-color: rgb(245, 245, 245);
+  margin: 30px;
 }
 
 a {
   color: inherit;
-}
-
-header a {
-  width: 1024px;
-  text-decoration: none;
 }
 
 .logo {
@@ -24,8 +27,6 @@ header a {
 }
 
 .content {
-  width: 800px;
-  margin: auto;
   font-size: 18px;
   line-height: 1.6;
 }
