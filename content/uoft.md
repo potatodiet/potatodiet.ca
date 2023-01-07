@@ -45,7 +45,31 @@ details, obscuring real learning.
 - Bogdan Simion
 - Fall 2020
 
-Overall
+The course title suggests you'll finish the semester with the knowledge of how
+to write an operating system, instead you'll simply gain a disjoint
+understanding of how memory paging, threading, and file systems are implemented.
+
+Most of the assignments were unchanged from previous years which I find lazy.
+Seeing GitHub repositories from 3 years ago which implement our current
+semester's assignments make me think of the course as a MOOC.
+
+All of the assignments were written in C. It always sucks to write C. Strings
+being char\* is absolutely awful.
+
+Out of four assignments, the two I remember had us implement a syscall and a
+[FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace)-like
+implementation of ext2.
+
+To implement our syscall, we hijacked an existing rarely used syscall which is
+definitely a bad practice. Since the assignments seemed to be similar to
+previous years, it would've been best if the professor invested time into
+writing the scafolding for us to compile a syscall the proper way. I don't like
+it when professors take shortcuts when designing assignments.
+
+Our ext2 assignment was surprisingly very interesting. We wrote a CLI
+application which lets a user interact with an ext2 formatted file. Before
+taking the course, the idea of implementing a file system seemed insurmountable.
+Now I'm very comfortable knowing I can write a file system if needed.
 
 ### CSC236 - Introduction to the Theory of Computation
 
