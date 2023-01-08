@@ -40,6 +40,46 @@ would tell us to "come on in", not knowing we were waiting outside for a reason.
 The assignments in my opinion were mostly annoying and focused too much on minor
 details, obscuring real learning.
 
+### CSC207 - Software Design
+
+- Arnold Rosenbloom
+- Fall 2019
+
+The most important thing gained from this course was a deluge of emails which
+continued to fill my inbox years after completing the course.
+
+Outside of reading Arnold's daily emails we learned design patterns through
+writing Java programs. I've never used any of the design patterns outside of the
+course, I'm fairly certain that'll stay true.
+
+We worked on a group project of 4 where only myself and a friend did any work.
+The project was to implement reversi with a JavaFX frontend backed by an
+indepentent backend.
+
+You could play against either the computer or a human opponent. We developed a
+few strategies which the computer would use against you. One of the strategies
+was greedy where it would simply pick the move which gained the most points
+without looking into the future. Another strategy was an O(n^n) algorithm where
+it would pick the move which caused you to gain the least amount of points the
+following turn, assuming you choose the best greedy option. There were other
+strategies which I've forgotten.
+
+We split the simple stategies up among the teammates and I remember one person
+directly copied a loop I wrote, changing lines in a nonsensical uncompilable way
+and pretending he completed his part.
+
+The other non-friend teammate at least didn't lie to us and knew how to code.
+But he completed a minimal number of tasks and later got a personal extension to
+complete his tasks, leaving our submission incomplete (causing us to lose marks)
+but using our code in his submission to score a higher mark. You shouldn't be
+able to get a personal extension for group projects which you get graded
+separately on. I know of this happening to someone in another CSC207 term. It's
+such an obvious issue which would be simple to fix: backport the grade (if it's
+higher) to the rest of the team.
+
+The teammember who got a personal extension also had me tutor him and tried to
+pay me with magic mushrooms.
+
 ### CSC369 - Operating Systems
 
 - Bogdan Simion
