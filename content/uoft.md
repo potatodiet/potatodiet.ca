@@ -4,6 +4,12 @@ title: My Time at the University of Toronto
 
 An in-progress overview of the courses I took at UofT.
 
+| Semester | Start     | End      |
+| -------- | --------- | -------- |
+| Winter   | January   | April    |
+| Summer   | May       | August   |
+| Fall     | September | December |
+
 ### CSC108 - Introduction to Computer Programming
 
 - Fall 2018
@@ -79,6 +85,28 @@ higher) to the rest of the team.
 
 The teammember who got a personal extension also had me tutor him and tried to
 pay me with magic mushrooms.
+
+### CSC209 - Software Tools and Systems Programming
+
+- Ilir Dema
+- Winter 2020
+
+The first class where we began to program at a lower abstraction level. We used
+C for everything.
+
+I enjoy the simplicity of C when working on personal projects, but I find
+writing spaghetti C code inevitable when working with vague requirements or
+deadlines which you get from course assignments.
+
+Out of 4 assignemnts I remember 2: one where we worked with signals and
+threading, another where we wrote a instant messaging server. The first
+assignment was a perfect opportunity to reinforce the learning of C. The second
+seemed like a reasonable use of C, but in practice it wasn't. We learned through
+practice why people don't write multithreaded multiuser UTF-8 messaging apps
+with C.
+
+This was my first experience with Ilir. I didn't interact with him much through
+the course. Later on I'd come to dislike his teaching style.
 
 ### CSC369 - Operating Systems
 
