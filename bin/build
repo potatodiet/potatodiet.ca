@@ -4,15 +4,24 @@ shopt -s nullglob
 
 mkdir -p public/test
 rm -r public/*
-cp -r theme/{*.woff2,style.css,favicon.png} static/* public
+cp -a theme/{*.woff2,style.css,favicon.png} static/* public
 
 for filename in content/*.md; do
   name=$(basename "$filename" .md)
+  modified=$(git log -n 1 --pretty=format:%cd --date=format:"%-d %B %Y" "$filename")
 
   if [[ "$name" == "index" ]]; then
-    pandoc --template theme/template.html "$filename" -o "public/index.html"
+    pandoc \
+      --template theme/template.html \
+      -V modified_date="$modified" \
+      "$filename" \
+      -o "public/index.html"
   else
     mkdir "public/$name"
-    pandoc --template theme/template.html "$filename" -o "public/$name/index.html"
+    pandoc \
+      --template theme/template.html \
+      -V modified_date="$modified" \
+      "$filename" \
+      -o "public/$name/index.html"
   fi
 done

@@ -21,22 +21,22 @@ a {
   color: inherit;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
-}
-
 .content {
   font-size: 18px;
   line-height: 1.6;
 }
 
-.content table {
-  text-indent: 0;
+table, th, td {
+  border: 1px solid gray;
+  border-collapse: collapse;
 }
 
-.content th {
-  text-align: start;
+th, td {
+  padding: 5px 15px;
+}
+
+tr:nth-child(2n) {
+  background-color: rgb(230, 230, 230);
 }
 
 h1 {
@@ -45,4 +45,10 @@ h1 {
 
 h3 {
   font-size: 24px;
+}
+
+footer {
+  padding-top: 10px;
+  margin-top: 20px;
+  border-top: 1px solid gray;
 }
