@@ -8,11 +8,13 @@ cp -a theme/{*.woff2,style.css,favicon.svg} static/* public
 
 for filename in content/*.md; do
   name=$(basename "$filename" .md)
+  created=$(git log --follow --format=%ad  --date=format:"%-d %B %Y" "$filename" | tail -1)
   modified=$(git log -n 1 --pretty=format:%cd --date=format:"%-d %B %Y" "$filename")
 
   if [[ "$name" == "index" ]]; then
     pandoc \
       --template theme/template.html \
+      -V created_date="$created" \
       -V modified_date="$modified" \
       "$filename" \
       -o "public/index.html"
@@ -20,6 +22,7 @@ for filename in content/*.md; do
     mkdir "public/$name"
     pandoc \
       --template theme/template.html \
+      -V created_date="$created" \
       -V modified_date="$modified" \
       "$filename" \
       -o "public/$name/index.html"

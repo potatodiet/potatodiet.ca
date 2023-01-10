@@ -12,18 +12,27 @@
   </head>
 
   <body>
-    <section class="content">
-      $if(home)$
-      $else$
+    $if(home)$
+    $else$
+    <header>
       <h3><a href="/">Go Home</a></h3>
-      <h1>$title$</h1>
-      $endif$
+    </header>
+    $endif$
 
-      $body$
+    <main>
+      <article>
+        $if(home)$
+        $else$
+        <h1>$title$</h1>
+        $endif$
+        
+        $body$
+      </article>
+    </main>
 
-      <footer>
-        Modified: $modified_date$
-      </footer>
-    </section>
+    <footer>
+      <div>Created: $created_date$; Modified: $modified_date$</div>
+      <div>Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div>
+    </footer>
   </body>
 </html>
