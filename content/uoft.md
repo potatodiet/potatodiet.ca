@@ -4,6 +4,8 @@ title: My Time at the University of Toronto
 
 An in-progress overview of the courses I took at UofT.
 
+#### Semester Mapping
+
 | Semester | Start     | End      |
 | -------- | --------- | -------- |
 | Winter   | January   | April    |
@@ -57,6 +59,33 @@ continued to fill my inbox years after completing the course.
 Outside of reading Arnold's daily emails we learned design patterns through
 writing Java programs. I've never used any of the design patterns outside of the
 course, I'm fairly certain that'll stay true.
+
+Though, like most courses, not much was learned, there was one very interesting
+concept learned: state machines.
+
+Below is a state machine which converts x into a number between 0 and 5. Yes,
+this could be done far simpler without state machines.
+
+    class State:
+        PositionA = 1
+        PositionB = 2
+        PositionC = 3
+
+    x = *some_num*
+    state = State.PositionA
+
+    while True:
+        match state:
+            case State.PositionA:
+                if x < 0:
+                    x *= -1
+                state = State.PositionB
+            case State.PositionB:
+                if x > 5:
+                    x = 5
+                state = State.PositionC
+            case State.PositionC:
+                break
 
 We worked on a group project of 4 where only myself and a friend did any work.
 The project was to implement reversi with a JavaFX frontend backed by an
