@@ -19,4 +19,5 @@ Checkout my prose if you're interested.
 - [My Reading List](/reading/)
 - [Keeping a Clean Room](/cleaning-room/)
 - [My Selfhosting Setup](/my-selfhosting-setup/)
+- [Why & How This Website Exists](/this-site/)
 - [Minor Annoyances](/minor-annoyances/)
