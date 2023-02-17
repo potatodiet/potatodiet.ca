@@ -2,6 +2,62 @@
 title: My Projects
 ---
 
+## Overview
+
+- [CinemaCentral](https://github.com/potatodiet/CinemaCentral) - Lightweight
+  website for streaming home media. (C#, TypeScript)
+- [Homebrew Tweego](https://github.com/potatodiet/homebrew-tweego) - Homebrew
+  tap for Tweego, a compiler for Twine stories. (Ruby)
+- [Diceware Gen](https://github.com/potatodiet/diceware-gen) - Diceware
+  generator. (Rust)
+- [Potato Tools](http://github.com/potatodiet/PotatoTools) - Collection of
+  browser-accessible tools. (JavaScript)
+- [Anki Chinese Helper](https://github.com/potatodiet/anki_chinese_helper) -
+  Helper add-on for Anki to make studying Chinese simpler. (Python)
+- [CEDICT to SQLite](https://github.com/potatodiet/cedict_to_sqlite) - Convert
+  CEDICT into a SQLite database. (Python)
+- [Mood](https://github.com/potatodiet/mood) - Compare your music tastes with
+  the global average. (JavaScript)
+- [UofT Tools](https://github.com/potatodiet/uoft-tools) - Tools which proved
+  useful during my bachelor's degree. (Python, TypeScript)
+- [Image Board](https://github.com/potatodiet/image_board) - Danbooru-style
+  image board. (Ruby, HAML)
+- [Documentaries](https://github.com/potatodiet/documentaries) - Share YouTube
+  documentaries. (Ruby, HAML)
+- [Teamspeak Ruby](https://github.com/potatodiet/teamspeak-ruby) - Client
+  library for TeamSpeak 3's server query API. (Ruby)
+- [Teamspeak Python](https://github.com/potatodiet/python-teamspeak) - Client
+  library for TeamSpeak 3's server query API. (Python)
+- [Gazou](https://github.com/potatodiet/gazou) - Direct image sharing website.
+  (Crystal)
+- [GPA Calculator](https://github.com/potatodiet/gpa_calculator) - Course grades
+  tracker. (Haskell)
+- [Tsuno](https://github.com/potatodiet/tsuno) - Course grades tracker. (Ruby)
+- [Gem Tracker](https://github.com/potatodiet/gemtracker) - Track the daily
+  install rate of RubyGems.org gems. (C++)
+- [Autoplete](https://github.com/potatodiet/autoplete) - Add autocompletion to
+  input tags. (JavaScript)
+- [Simple Server](https://github.com/potatodiet/SimpleServer) - HTTP server.
+  (C++)
+- [Rokunet](https://github.com/potatodiet/rokunet) - Networking library. (C++)
+- [Dacado](https://github.com/potatodiet/dacado) - Encode arbitrary data into
+  images. (Java)
+- [AverageFrame](https://github.com/potatodiet/AverageFrame) - Display the
+  average frame of a video. (Java)
+- [Bitsu](https://github.com/potatodiet/bitsu) - URL router. (C++)
+- [Book Sorter](https://github.com/potatodiet/book_sorter) - Sort books into
+  folders following the Dewey Decimal System. (Ruby)
+- [Nero](https://github.com/potatodiet/nero) - Web framework. (JavaScript)
+
+## Potato Tools
+
+- [GitHub](http://github.com/potatodiet/PotatoTools)
+- [Live](https://tools.potatodiet.ca)
+
+A collection of tools which solve common issues I have. One example is when I
+want to losslessly compress many PNGs to WebP, but don't want to mess around
+with the terminal.
+
 ## CEDICT to SQLite
 
 [CEDICT to SQLite](https://github.com/potato-diet/cedict_to_sqlite) is a python
@@ -13,6 +69,8 @@ and number identifiers (a1).
 
 ## gazou
 
+- [GitHub](https://github.com/potato-diet/gazou)
+
 I've always loved the joyful experience of developing with Ruby but the poor
 performance and lack of static typing is a major sore spot, luckily Crystal
 exists. Crystal is basically a statically typed compiled Ruby, so it's obviously
@@ -23,10 +81,9 @@ In June 2020, I had the brilliantly unique idea of coppying the basics of
 Quickly, I had a MVP developed which let users upload images, returning a
 deduplicated URL pointing towards their image to send to others.
 
-The source code can be viewed on [GitHub](https://github.com/potato-diet/gazou),
-and a [demo](https://gazou.potatodiet.ca) is available.
-
 ## Image Board
+
+- [GitHub](https://github.com/potato-diet/image_board)
 
 Throughout mid-2014, I developed a danbooru-style website which lets users share
 and images. Other users can then discover interesting and relevant images by
@@ -36,11 +93,9 @@ image. The website was originally built with Rails 4, and then in 2020, updated
 to Rails 6. I used Vagrant to create a consistent development environment, but
 now Vagrant is basically obsolete and replaced with Docker.
 
-The source code can be viewed on
-[GitHub](https://github.com/potato-diet/image_board), and there is a
-[demo](https://ib.potatodiet.ca) available.
-
 ## Media Home
+
+- [GitHub](https://github.com/potato-diet/media_home)
 
 Over the first few months of 2021, I developed a home media server using Go and
 React. The website only supports movies as of now, through
@@ -53,11 +108,10 @@ seconds. There's no support for login, or multi-user access, so anyone can
 access all parts of the website and the resume timestamp is shared among all
 viewers.
 
-The source code can be viewed on
-[GitHub](https://github.com/potato-diet/media_home), and there is a
-[demo](https://mh.potatodiet.ca) available.
-
 ## Mood
+
+- [GitHub](https://github.com/potato-diet/mood)
+- [Demo](https://mood.potatodiet.ca)
 
 On 18 March 2021, I developed a quick little website which takes your 50 most
 recently played Spotify songs and compares them to the
@@ -67,9 +121,6 @@ happiness, and danceability. The website is very simple with a basic UI, and was
 just built to help me understand a few things about React. The demo is also
 hosted with Cloudflare Pages which is a pretty simple and seamless process which
 I'd recommend using.
-
-The source code can be found on [GitHub](https://github.com/potato-diet/mood),
-and a [demo](https://mood.potatodiet.ca) is available.
 
 ## Open World Prototype
 
@@ -91,10 +142,11 @@ with the axe in your hand.
 
 ## UofT Tools
 
-[UofT Tools](https://github.com/potato-diet/uoft-tools) is a collection of
-scripts which I've developed since beginning undergraduate studies to help with
-various tasks at UofT. Once I graduate, they'll propably go unmaintained and
-become of little use.
+- [GitHub](https://github.com/potato-diet/uoft-tools)
+
+A collection of scripts which I've developed since beginning undergraduate
+studies to help with various tasks at UofT. Once I graduate, they'll propably go
+unmaintained and become of little use.
 
 Currently there's two tools:
 
