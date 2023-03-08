@@ -2,15 +2,91 @@
 title: My Reading List
 ---
 
+## 2021
+
+### Death's End
+
+> By Cixin Liu
+
+Absolutely great. A perfect ending to the Three Body Problem trilogy.
+
+### The Dark Forest
+
+> By Cixin Liu
+
+The battle at the end was just awful. The whole lead up to intercepting the
+probe was just so irrational. Anyone with any rational sense wouldn't form a
+tight rectangular formation when confronting the probe of an enemy coming to
+commit genocide of your race.
+
+The fact that it took something like 3 minutes to break formation after getting
+slaughtered by the probe is ridiculous as well. After seeing a whole row of 100
+ships destroyed, the first instinct would be to at least spread out.
+
+Otherwise though the book was good, and in a way even the terrible battle was
+good because it got me emotionally invested, like watching a horror film and
+going crazy over the characters' bad decisions.
+
+### The Three Body Problem
+
+> By Cixin Liu
+
+The first hundred or so pages were boring to me, though the rest of the book was
+great. I loved the ending.
+
+### Outliers: The Story of Success
+
+> By Malcom Gladwell
+
+A good, but not great, book.
+
+### Homo Deus: A Brief History of Tomorrow
+
+> By Yuval Noah Harari
+
+Alright.
+
+### Ship of Fools: An Anthology of Learned Nonsense about Primitive Society
+
+> By Christopher Robert Hallpike
+
+An interesting look into primitive societies.
+
+### Astrophysics for People in a Hurry
+
+> By Neil deGrasse Tyson
+
+The title is accurate.
+
+### The Midnight Library
+
+> By Matt Haig
+
+A middle of the road fiction book about living your life in the now. Somewhat
+interesting, but not great.
+
+### Capitalism in America: An Economic History of the United States
+
+> By Alan Greenspan
+
+An interesting overview of the economics of mostly 1800-1900's america.
+
+### Children of Time
+
+> by Adrian Tchaikovsky
+
+An excellent idea for a book. I loved it, though it surely should've been
+shortened.
+
 ## 2020
 
-## Map and Territory
+### Map and Territory
 
 > by Eliezer Yudkowsky
 
 Overall I was unimpressed and found no value from Yudkowsky's writing.
 
-## Essays by the LessWrong Community
+### Essays by the LessWrong Community
 
 > by an assortment of authors
 
@@ -27,7 +103,7 @@ subreddit formed around.
 I love the rationalist community, but hate the essays outside of Gwern and Scott
 Alexander.
 
-## Pacific Crucible: War at Sea in the Pacific, 1941-1942
+### Pacific Crucible: War at Sea in the Pacific, 1941-1942
 
 > by Ian Toll
 
