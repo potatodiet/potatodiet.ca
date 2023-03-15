@@ -5,10 +5,8 @@ home: true
 
 # Justin Kidd
 
-I'm currently studying computer science at the
-[University of Toronto](https://en.wikipedia.org/wiki/University_of_Toronto).
-Previously I was a software developer intern at
-[SOTI](https://www.linkedin.com/company/soti).
+I'm currently studying computer science at the University of Toronto. Previously
+I was a software developer intern at SOTI.
 
 Checkout my prose if you're interested.
 
