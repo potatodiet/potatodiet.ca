@@ -137,6 +137,13 @@ with C.
 This was my first experience with Ilir. I didn't interact with him much through
 the course. Later on I'd come to dislike his teaching style.
 
+### CSC256 - Computer Organization
+
+- Andrew Petersen
+- Winter 2020
+
+How CPUs work and how to program with MIPS assembly.
+
 ### CSC369 - Operating Systems
 
 - Bogdan Simion
@@ -230,3 +237,40 @@ unimportant easily forgetable or ambiguous requirements.
 Overall I felt that the course was alright and I learned some cool functional
 programming techniques for use in side projects, since there's no way I'd get
 paid to use Haskell or Lisp.
+
+### CSC301 - Introduction to Software Engineering
+
+- Jason Wang
+- Winter 2023
+
+An experience of developing a product among a team of 6. Alternatively: gaining
+a first hand understanding of Price's law.
+
+### CSC309 - Programming on the Web
+
+- Jack Sun
+- Winter 2023
+
+An introduction to full stack web programming. We used Django, React, and a
+litle bit of jQuery. The course contained 3 assignments, a 3-phase project, and
+a midterm + final.
+
+The first and last assignments were simple. The second assignment was less so.
+For the first assignment we had to write a responsive static website based off a
+Figma outline. The second involved implementing a given bank + transactions REST
+API using Django. The third had us use JavaScript to implement an e-commerce
+shopping cart, infinite scrolling, and an upvote feature.
+
+Like most CS courses, the assignments were graded by an autotester through
+markus. Unlike most courses, we could run the autotester ourselves and see
+exactly which tests failed. This was perfect. I've always hated the mysterious
+grades given by an autotester weeks after submitting an assignment. Iteratively
+implementing a project to match test results is a much better way to learn.
+
+The project was much trickier than the assignments. The last two phases
+especially involved more grunt work. I should've started each phase sooner,
+rather than cramming all the work during the last couple days. I work way better
+when not under any time crunch. I partnered with my lovely girlfriend for the
+project which made the work much more enjoyable.
+
+I achieved my highest grade at UofT in this course.
