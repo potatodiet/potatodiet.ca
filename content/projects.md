@@ -60,7 +60,7 @@ with the terminal.
 
 ## CEDICT to SQLite
 
-[CEDICT to SQLite](https://github.com/potato-diet/cedict_to_sqlite) is a python
+[CEDICT to SQLite](https://github.com/potatodiet/cedict_to_sqlite) is a python
 script which downloads
 [CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cedict), a popular
 Chinese to English translation database, and converts it into an SQLite
@@ -69,7 +69,7 @@ and number identifiers (a1).
 
 ## gazou
 
-- [GitHub](https://github.com/potato-diet/gazou)
+- [GitHub](https://github.com/potatodiet/gazou)
 
 I've always loved the joyful experience of developing with Ruby but the poor
 performance and lack of static typing is a major sore spot, luckily Crystal
@@ -83,7 +83,7 @@ deduplicated URL pointing towards their image to send to others.
 
 ## Image Board
 
-- [GitHub](https://github.com/potato-diet/image_board)
+- [GitHub](https://github.com/potatodiet/image_board)
 
 Throughout mid-2014, I developed a danbooru-style website which lets users share
 and images. Other users can then discover interesting and relevant images by
@@ -95,7 +95,7 @@ now Vagrant is basically obsolete and replaced with Docker.
 
 ## Media Home
 
-- [GitHub](https://github.com/potato-diet/media_home)
+- [GitHub](https://github.com/potatodiet/media_home)
 
 Over the first few months of 2021, I developed a home media server using Go and
 React. The website only supports movies as of now, through
@@ -110,7 +110,7 @@ viewers.
 
 ## Mood
 
-- [GitHub](https://github.com/potato-diet/mood)
+- [GitHub](https://github.com/potatodiet/mood)
 - [Demo](https://mood.potatodiet.ca)
 
 On 18 March 2021, I developed a quick little website which takes your 50 most
@@ -142,15 +142,18 @@ with the axe in your hand.
 
 ## UofT Tools
 
-- [GitHub](https://github.com/potato-diet/uoft-tools)
+- [GitHub](https://github.com/potatodiet/uoft-tools)
 
 A collection of scripts which I've developed since beginning undergraduate
 studies to help with various tasks at UofT. Once I graduate, they'll propably go
 unmaintained and become of little use.
 
-Currently there's two tools:
+Currently there's three tools:
 
 - UofT Prof Ratings - A webextension which adds ratemyprof.com info to the
   course selection websites.
-- Course Finder - A python script which lets you fill in which courses you've
+- Course Finder - A Python script which lets you fill in which courses you've
   taken and then gives you a list of courses you're able to enroll in.
+- Course Archive - A Ruby script which downloads all syllabi from the
+  Mississauga campus. [Archive](/files/uoft/utm-syllabi.tar.zst) as of 2023
+  summer.
