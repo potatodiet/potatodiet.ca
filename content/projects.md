@@ -83,9 +83,22 @@ storyformats folder, which would fix the formula validation issue. I don't see
 any simple way to include story formats in Homebrew, so I'd most likely need
 users to download those themselves, which isn't optimal.
 
+## Diceware Gen
+
+- [GitHub](https://github.com/potatodiet/diceware-gen)
+- [AUR](https://aur.archlinux.org/packages/diceware-gen)
+
+Diceware is a technique for generating random passphrases. Traditionally you'd
+roll five dice, record the upward faces (Ex: 12345), lookup your result in a
+7776-length wordlist (Ex: 12345 -> arousal using EFF's Large Wordlist), repeat
+as desired. This is a Rust program which performs diceware programmatically.
+
+This was useful to me when I used password-gen to store passwords. After
+migrating to Bitwarden, and now 1Password, I don't have need of this anymore.
+
 ## Potato Tools
 
-- [GitHub](http://github.com/potatodiet/PotatoTools)
+- [GitHub](https://github.com/potatodiet/PotatoTools)
 - [Live](https://tools.potatodiet.ca)
 
 A collection of tools which solve common issues I have. One example is when I
