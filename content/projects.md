@@ -49,6 +49,40 @@ title: My Projects
   folders following the Dewey Decimal System. (Ruby)
 - [Nero](https://github.com/potatodiet/nero) - Web framework. (JavaScript)
 
+## Homebrew Tweego
+
+- [GitHub](http://github.com/potatodiet/homebrew-tweego)
+
+A Homebrew tap containing a formulae for Tweego, a compiler for Twine stories.
+
+This will most likely remain a Homebrew tap. I attempted to include this into
+Homebrew Core but couldn't resolve a few structural issues.
+
+Without indending to critizise, Tweego works in an odd way. Twine stories
+support customized functionality through story formats. Each story requires one
+story format to inherit from. Story formats are developed by third parties with
+their own seperate licenses and build steps. Tweego comes prepackaged with a few
+of the most popular story formats. When you run Tweego, it expects to find a
+folder with these story formats. If it doesn't find this folder, then it exits
+early. Even 'tweego --version' exits early.
+
+For inclusion in Homebrew Core, formulae are required to wholly build from
+source, which means those prepackaged third party story formats must either by
+excluded or compiled as well. Since Tweego can't be used without a story format,
+exclusion isn't an option. Since these story formats are all seperate projects,
+they also shouldn't be included in the Tweego formula. I thought of creating
+formulae following the naming scheme twine-storyformat (Ex: twine-sugarcube).
+This has a critical error though: Tweego searches specific locations for a
+singular storyformats folder, which contains a list of story formats. I couldn't
+figure out a way to install all these twine-storyformat formulae to a singular
+location. I also thought it was wrong to package all these story formats into
+one formula.
+
+Perhaps I could patch Tweego to perform basic functionality without finding a
+storyformats folder, which would fix the formula validation issue. I don't see
+any simple way to include story formats in Homebrew, so I'd most likely need
+users to download those themselves, which isn't optimal.
+
 ## Potato Tools
 
 - [GitHub](http://github.com/potatodiet/PotatoTools)
