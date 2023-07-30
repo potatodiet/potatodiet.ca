@@ -20,3 +20,4 @@ Explore my digital garden.
 - [My Selfhosting Setup](/my-selfhosting-setup/)
 - [Why & How This Website Exists](/this-site/)
 - [Minor Annoyances](/minor-annoyances/)
+- [Annoying Incident on the LRT in Waterloo](/waterloo-invalid-transit/)
