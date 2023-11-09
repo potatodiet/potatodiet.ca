@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+    <title>{{ title }} | Justin Kidd</title>
+
+    <link as="font" crossorigin href="/SourceSerif4.woff2" preload rel="preload" type="font/woff2">
+    <link href="/style.css" rel="stylesheet">
+    <link href="/favicon.svg" rel="icon" type="image/svg+xml"/>
+</head>
+
+<body>
+<header>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/archive/">Posts</a>
+        <a href="/tags/">Tags</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        {{ if title != "Home" }}
+        <h1>{{ title }}</h1>
+
+        {{ if tags | array.size > 0 }}
+        <p>
+            Tags:
+            {{ for tag in tags }}
+            <a href="/tags/{{ tag | string.handleize }}/">{{ tag }}</a>
+            {{ end }}
+        </p>
+        {{ end }}
+        {{ end }}
+        {{content}}
+    </article>
+</main>
+</body>
+</html>

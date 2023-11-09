@@ -1,4 +1,9 @@
-/public
-/static
-!/static/.gitkeep
-/Brewfile.lock.json
+/.idea
+.DS_Store
+
+/StaticPotato/appsettings.json
+/StaticPotato/ExampleSite/public
+/StaticPotato/ExampleSite/static
+!/StaticPotato/ExampleSite/static/.gitkeep
+bin
+obj
