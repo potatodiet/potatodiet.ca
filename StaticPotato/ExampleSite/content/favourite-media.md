@@ -1,7 +1,5 @@
 ---
 title: "My Favourite Media"
-tags:
-  - "Personal"
 ---
 
 ## Music

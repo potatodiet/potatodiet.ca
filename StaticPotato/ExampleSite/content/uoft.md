@@ -1,8 +1,5 @@
 ---
 title: "My Time at the University of Toronto"
-tags:
-  - "Education"
-  - "Personal"
 ---
 
 An in-progress overview of the courses I took at UofT.

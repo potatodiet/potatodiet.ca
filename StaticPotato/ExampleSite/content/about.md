@@ -1,7 +1,5 @@
 ---
 title: "About Me"
-tags:
-  - "Personal"
 ---
 
 ## Overview

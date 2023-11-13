@@ -4,19 +4,14 @@ namespace StaticPotato;
 
 public class Website : IWebsite
 {
-    public Website(IFileSystem fileSystem, IHttpFileServer httpFileServer, ITagManager tagManager,
-        IArchiveManager archiveManager)
+    public Website(IFileSystem fileSystem, IHttpFileServer httpFileServer)
     {
         FileSystem = fileSystem;
         HttpFileServer = httpFileServer;
-        TagManager = tagManager;
-        ArchiveManager = archiveManager;
     }
 
     private IFileSystem FileSystem { get; }
     private IHttpFileServer HttpFileServer { get; }
-    private ITagManager TagManager { get; }
-    private IArchiveManager ArchiveManager { get; }
 
     public async Task Watch(CancellationToken stoppingToken)
     {
@@ -35,8 +30,6 @@ public class Website : IWebsite
     public async Task Generate(bool production, CancellationToken stoppingToken)
     {
         FileSystem.CleanPublic();
-        TagManager.Clear();
-        ArchiveManager.Clear();
 
         var template = await FileSystem.ReadText(BaseDirectory.Theme, "template.html");
         foreach (var file in FileSystem.List(BaseDirectory.Content))
@@ -55,20 +48,10 @@ public class Website : IWebsite
 
             if (production && page.Attributes?.Published is false) continue;
 
-            if (page.Attributes?.Tags.Count == 0 && page.Attributes?.Title != "Home")
-                Console.WriteLine($"{file} should have at least one tag.");
-
-            foreach (var tag in page.Attributes?.Tags ?? Enumerable.Empty<string>()) TagManager.Add(tag, page);
-
-            if (page.Attributes?.Title != "Home") ArchiveManager.Add(page);
-
             var outDir = page.Attributes?.Title == "Home" ? "/" : Path.GetFileNameWithoutExtension(file);
             var outFile = Path.Join(outDir, "index.html");
             await FileSystem.WriteText(BaseDirectory.Public, outFile, page.ToHtml());
         }
-
-        await TagManager.Generate();
-        await ArchiveManager.Generate();
 
         foreach (var file in FileSystem.List(BaseDirectory.Static)) FileSystem.CopyToPublic(BaseDirectory.Static, file);
         foreach (var file in FileSystem.List(BaseDirectory.Assets)) FileSystem.CopyToPublic(BaseDirectory.Assets, file);

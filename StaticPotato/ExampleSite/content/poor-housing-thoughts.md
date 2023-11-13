@@ -1,7 +1,5 @@
 ---
 title: "Poorly Researched Thoughts on Housing Markets"
-tags:
-  - "Rants"
 ---
 
 ## Building Non-affordable Housing is Bad.

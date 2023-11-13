@@ -1,6 +1,6 @@
 ---
 title: "Canada's International Student Experiment"
-published: no
+published: false
 ---
 
 900,000 international students will enter Canada in 2023. 500,000 will enter the

@@ -1,7 +1,5 @@
 ---
 title: "Minor Annoyances"
-tags:
-  - "Rants"
 ---
 
 - Historical movies which have someone use the word "fire" to command archers to

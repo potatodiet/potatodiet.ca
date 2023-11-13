@@ -1,7 +1,5 @@
 ---
 title: "Canada Day 2023"
-tags:
-  - "Personal"
 ---
 
 2023 was the first time in at least 10 years that I did anything special on

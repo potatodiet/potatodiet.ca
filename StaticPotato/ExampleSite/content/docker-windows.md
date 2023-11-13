@@ -1,8 +1,6 @@
 ---
 title: "A Tale of Docker & Windows"
 published: false
-tags:
-  - "Career"
 ---
 
 While working at SOTI, I was tasked with integrating Docker into our CI process.
