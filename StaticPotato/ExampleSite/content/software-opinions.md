@@ -5,13 +5,13 @@ title: "Software Opinions"
 ## Validation
 
 - E-mail address validation is commonly thought to be a difficult problem. One
-  way people solve this seemingly difficult problem is through the use of a
+  way people solve this seemingly difficult problem is through the use of an
   arcane regex in an attempt to predict if the user's input is a valid e-mail
   address. Don't do this. The solution is much simpler: send the user an e-mail.
-  If the user receives th e-mail, they entered a valid e-mail address. It's fine
-  to perform a soft validation with regex if you desire. However, only hint to
-  the user that their input may be an invalid e-mail address, don't prevent them
-  from continuing.
+  If the user receives the e-mail, they entered a valid e-mail address. It's
+  fine to perform a soft validation with regex if you desire. However, only hint
+  to the user that their input may be an invalid e-mail address, don't prevent
+  them from continuing.
 
 ## YAML
 

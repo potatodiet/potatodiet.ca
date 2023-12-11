@@ -20,9 +20,19 @@ developers should own the deploy process for the software they write. I think
 less is more when it comes to code: concise and terse is better than repetitive
 and verbose.
 
-I enjoy history, politics, philosophy, and the pursuit of knowledge in general.
+I'm an advocate of the free software movement. I support the Electronic Frontier
+Foundation, and the Free Software Foundation. I contribute to freedom-respecting
+software on [GitHub](//github.com/potatodiet). I'm, however, also a realist. I'm
+therefore okay with using closed source software if the alternative free
+software choices are lacking. Hence, I'm okay with the seemingly ironic aspect
+of contributing to free software projects on closed-source GitHub.
 
-Explore my digital garden.
+I enjoy history, politics, philosophy, and the pursuit of knowledge in general.
+I occasionally contribute
+to [Wikipedia](https://en.wikipedia.org/wiki/User:PotatoDiet).
+
+Explore my digital garden, and then
+checkout [Ellie Zhang](https://ellie.monster).
 
 ## Life
 
@@ -41,4 +51,7 @@ Explore my digital garden.
 
 ## Miscellaneous
 
+- [Philosophy](/philosophy/)
 - [Canadian Bank Comparison](/canadian-bank-comparison/)
+- [Minor Annoyances](/minor-annoyances/)
+- [Product Choices](/product-choices/)
